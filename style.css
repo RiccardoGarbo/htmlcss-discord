@@ -35,6 +35,24 @@ p {
     line-height: 25px;
 }
 
+.wave-up {
+    height: 100px;
+    width: 100%;
+    filter: opacity(0.1);
+    margin-bottom: -4px;
+
+}
+
+.wave-d {
+    transform: scale(-1);
+    display: flex;
+    height: 100px;
+    justify-content: end;
+    width: 100%;
+    filter: opacity(0.1);
+
+}
+
 .container-small-head {
     /*Header*/
     height: 50px;
@@ -171,7 +189,7 @@ p {
 }
 
 .container-content-g {
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(230, 230, 230);
     display: flex;
     height: 450px;
     justify-content: center;
@@ -181,7 +199,7 @@ p {
 
 /*Big content*/
 .container-content-big {
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(230, 230, 230);
     min-height: 800px;
     display: flex;
     justify-content: center;
@@ -288,7 +306,7 @@ li {
     color: white;
 }
 
-ul {
+.blue {
     color: rgb(93, 74, 201);
     font-weight: 600;
 
