@@ -126,7 +126,7 @@ p{
     align-items: center;
 
 }
-.content-1{
+.content-big{
     
     height: 400px;
     width: 40%;
@@ -134,19 +134,16 @@ p{
     
   
 }
-.content-2{
+.content-small{
     
     height: 400px;
     width: 20%;
     border: 1px dashed black; 
-    
-    
-    
-    
+   
 }
 .container-content-g
 {
-    background-color: gray;
+    background-color:rgb(223, 217, 217);
     display: flex;
     height: 450px;
     justify-content: center;
@@ -159,7 +156,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-.big-content{
+.unique-content{
     height: 750px;
     background-color: green;
     width: 60%;
