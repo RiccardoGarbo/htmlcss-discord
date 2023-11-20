@@ -2,7 +2,19 @@
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
+    
 }
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/*Utils*/
+a{
+    text-decoration: none;
+    color: white; 
+    padding: 5px;
+    
+ }
+
 .container-small-head{       /*Header*/
     height: 50px;
     display: flex;
@@ -10,57 +22,90 @@
     align-content: center;
     flex-basis: 70%;
     flex-wrap: wrap;
-    margin-top: 5px;    }
+    margin-top: 5px;
+        }
+    
 .small-head{                    /*front-head*/
-    background-color: rgb(0, 206, 206);
+    background-color: rgb(22, 79, 235);
     height: 60px;
     display: flex;
     justify-content: center;
+    color: white;
 }
 .logo{
     width: 20%;
-    background-color: orange;
-    border: 1px dashed black;
+    
+    
     display: flex;
     align-items: center;
     padding-left: 10px
 }
 .link{       
-    width: 60%;
-    background-color: orange;
-    border: 1px dashed black;
+    flex-grow: 1;
+    
+    
     display: flex;
     align-items: center;
     justify-content: center;
         }
 .login {
         width: 20%;   
-        background-color: orange;
-        border: 1px dashed black;
+        
+        
         display: flex;
         align-items: center;
         padding-right: 10px;
         flex-direction: row-reverse;
         flex-wrap: wrap;
+        
+         }
+#accedi{
+            background-color: white;
+            border-radius: 20px;
+            border-color: white;
+            
          }   
-a{
-    text-decoration: none;
-    color: black;
-    padding: 5px;    
-}
+
  /*under front head*/
 .big-head{
-    background-color: blue;
-    min-height: 400px;
+    background-image: url(img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container-under-small-head{
-    background-color: palevioletred;
-    min-width: 50%;
+    color: white;
+    text-align: center;
+    line-height: 1.8rem;    
+    width: 50%;
     height: 320px;
-    border: 1px dashed black;   }
+       }
+h1{
+    padding: 30px 0 ;
+}
+#mac-button{
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+    padding: 10px;
+    
+}
+#disc-button{
+    background-color: rgb(39, 38, 38);
+    border-radius: 20px;
+    border-color: rgb(39, 38, 38);
+    color: white;
+    padding: 10px;}
+.button-header{
+    padding-top: 20px;
+}
+    
+
+
 .container-content-w                 /*Contenuti principali*/
 {background-color: white;
     display: flex;
@@ -148,7 +193,7 @@ background-color: rgba(0, 255, 255, 0.377);
 }
 input{
     background-color: rgb(211, 116, 116);
-    border: 1px dashed black;
+    
     padding: 5px;
     
 }
