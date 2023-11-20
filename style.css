@@ -14,7 +14,10 @@ a {
     text-decoration: none;
     color: white;
     padding: 5px;
+}
 
+i {
+    padding-right: 10px;
 }
 
 h1 {
@@ -152,7 +155,7 @@ p {
 
     height: 400px;
     width: 40%;
-    border: 1px dashed black;
+
 
 
 }
@@ -161,7 +164,7 @@ p {
 
     height: 400px;
     width: 20%;
-    border: 1px dashed black;
+
 
 }
 
@@ -185,7 +188,7 @@ p {
 .unique-content {
     height: 750px;
     width: 60%;
-    border: 1px dashed black;
+
     text-align: center;
 
 }
@@ -200,35 +203,42 @@ p {
 
 
 .container-big-foot {
-    background-color: rgb(15, 13, 13);
+    background-color: rgb(29, 29, 29);
     display: flex;
     min-height: 450px;
     justify-content: center;
     align-items: center;
 
+
 }
 
 .foot-content {
-    background-color: rgb(224, 129, 145);
+
     width: 20%;
-    border: 1px dashed black;
+
     height: 400px;
+    color: white;
+
 }
 
 .micro-content {
 
-    background-color: rgba(0, 255, 255, 0.377);
-    border: 1px dashed white;
+
+
     width: 10%;
     height: 400px;
+    line-height: 30px;
 
 
 }
 
 .small-foot {
     /*small foot*/
-    background-color: rgb(15, 13, 13);
-    margin: 2px 0;
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 40px;
+
+
+
 
     height: 60px;
     display: flex;
@@ -237,19 +247,55 @@ p {
 }
 
 .buttons {
-    background-color: aquamarine;
+
     width: 60%;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 3px solid rgb(93, 74, 201);
+    margin-top: 30px;
+    padding-top: 20px;
 }
 
-input {
-    background-color: rgb(211, 116, 116);
-    border: 1px dashed black;
-    padding: 5px;
+#registration {
+    background-color: rgb(159, 132, 201);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.italia {
+    width: 25px;
+}
+
+#italiano {
+    font-weight: bold;
 
 
+}
 
+.loghi {
+    padding-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+}
+
+ul {
+    color: rgb(93, 74, 201);
+    font-weight: 600;
+
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+#title-foot {
+    color: rgb(93, 74, 201);
 }
